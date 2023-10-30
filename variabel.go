@@ -9,4 +9,12 @@ func main() {
 	// Menggungkan ":" sebelum "=" dapat menggantikan var
 	wifeName := "Risti Yolanda"
 	fmt.Println(wifeName)
+
+	var (
+		firstName = "Pares"
+		lastName  = "Iqbal"
+	)
+
+	fmt.Println(firstName + lastName)
+	fmt.Println(lastName)
 }
