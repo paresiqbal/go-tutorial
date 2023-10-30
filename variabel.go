@@ -11,10 +11,19 @@ func main() {
 	fmt.Println(wifeName)
 
 	var (
-		firstName = "Pares"
-		lastName  = "Iqbal"
+		firstName = "USS"
+		lastName  = "KIDD"
 	)
+	fmt.Println(firstName + " " + lastName)
 
-	fmt.Println(firstName + lastName)
-	fmt.Println(lastName)
+	// const variabel yang datanya tidak dapat dibubah lagi
+	const shipName = "USS IOWA"
+	fmt.Println(shipName)
+
+	const (
+		nation  = "KMS"
+		name    = "Hanover"
+		caliber = "381mm"
+	)
+	fmt.Println(nation + " " + name + " " + caliber)
 }
