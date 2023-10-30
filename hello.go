@@ -1,9 +1,9 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Println("Hello World")
-	fmt.Println(len("Golang"))
-	fmt.Println("Good Night"[0])
-}
+// func main() {
+// 	fmt.Println("Hello World")
+// 	fmt.Println(len("Golang"))
+// 	fmt.Println("Good Night"[0])
+// }
