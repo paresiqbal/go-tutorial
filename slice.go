@@ -34,4 +34,11 @@ func main() {
 
 	newSliceApen := append(newSlice, "099")
 	fmt.Println(newSliceApen)
+
+	fromSlice := days[:]
+	toSlice := make([]string, len(fromSlice), cap(fromSlice))
+	copy(toSlice, fromSlice)
+
+	fmt.Println(fromSlice)
+	fmt.Println(toSlice)
 }
