@@ -1,26 +1,26 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	var names [3]string
+// func main() {
+// 	var names [3]string
 
-	names[0] = "Pahreza"
-	names[1] = "Iqbal"
-	names[2] = "Prastowo"
+// 	names[0] = "Pahreza"
+// 	names[1] = "Iqbal"
+// 	names[2] = "Prastowo"
 
-	fmt.Println(names[1])
+// 	fmt.Println(names[1])
 
-	var value = [3]int{1, 2, 3}
-	fmt.Println(value)
+// 	var value = [3]int{1, 2, 3}
+// 	fmt.Println(value)
 
-	var nilai = [...]int{
-		100,
-		102,
-		103,
-		104,
-		105,
-	}
+// 	var nilai = [...]int{
+// 		100,
+// 		102,
+// 		103,
+// 		104,
+// 		105,
+// 	}
 
-	fmt.Println(len(nilai))
-}
+// 	fmt.Println(len(nilai))
+// }
