@@ -13,4 +13,14 @@ func main() {
 
 	var value = [3]int{1, 2, 3}
 	fmt.Println(value)
+
+	var nilai = [...]int{
+		100,
+		102,
+		103,
+		104,
+		105,
+	}
+
+	fmt.Println(len(nilai))
 }
