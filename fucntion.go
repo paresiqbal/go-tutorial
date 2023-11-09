@@ -1,12 +1,12 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func sayHello(firstName string, lastName string) {
-	fmt.Println("Hello", firstName, lastName)
-}
+// func sayHello(firstName string, lastName string) {
+// 	fmt.Println("Hello", firstName, lastName)
+// }
 
-func main() {
-	sayHello("Pares", "Iqbal")
-	sayHello("Risti", "Yolanda")
-}
+// func main() {
+// 	sayHello("Pares", "Iqbal")
+// 	sayHello("Risti", "Yolanda")
+// }
