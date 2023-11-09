@@ -1,16 +1,16 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func getCompleteName() (firstName, middleName, lastName string) {
-	firstName = "Pahreza"
-	middleName = "Iqbal"
-	lastName = "Prastowo"
+// func getCompleteName() (firstName, middleName, lastName string) {
+// 	firstName = "Pahreza"
+// 	middleName = "Iqbal"
+// 	lastName = "Prastowo"
 
-	return firstName, middleName, lastName
-}
+// 	return firstName, middleName, lastName
+// }
 
-func main() {
-	a, b, c := getCompleteName()
-	fmt.Println(a, b, c)
-}
+// func main() {
+// 	a, b, c := getCompleteName()
+// 	fmt.Println(a, b, c)
+// }
