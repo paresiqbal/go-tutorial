@@ -15,6 +15,7 @@ func main() {
 	fmt.Println(result)
 	fmt.Println(getHello("Risti"))
 
-	firstName, lastName := getFullname()
+	firstName, lastName := getFullname() // gunakan _ untuk ignor value
 	fmt.Println(firstName, lastName)
+
 }
