@@ -6,9 +6,15 @@ func getHello(name string) string {
 	return "Hello" + name
 }
 
+func getFullname() (string, string) {
+	return "Pahreza", "Iqbal"
+}
+
 func main() {
 	result := getHello("Pares")
 	fmt.Println(result)
-
 	fmt.Println(getHello("Risti"))
+
+	firstName, lastName := getFullname()
+	fmt.Println(firstName, lastName)
 }
