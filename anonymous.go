@@ -17,5 +17,9 @@ func main() {
 		return name == "Pares"
 	}
 
-	registerUser("Anjing", blacklist)
+	registerUser("Iqbal", blacklist)
+	// Anonymous function
+	registerUser("Pares", func(name string) bool {
+		return name == "Pares"
+	})
 }
