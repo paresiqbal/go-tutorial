@@ -1,23 +1,23 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func sayHello(name string, filter func(string) string) {
-	flteredName := filter(name)
-	fmt.Println("Hello", flteredName)
-}
+// func sayHello(name string, filter func(string) string) {
+// 	flteredName := filter(name)
+// 	fmt.Println("Hello", flteredName)
+// }
 
-func spamFilter(name string) string {
-	if name == "Anjing" {
-		return "***"
-	} else {
-		return name
-	}
-}
+// func spamFilter(name string) string {
+// 	if name == "Anjing" {
+// 		return "***"
+// 	} else {
+// 		return name
+// 	}
+// }
 
-func main() {
-	sayHello("Pares", spamFilter)
+// func main() {
+// 	sayHello("Pares", spamFilter)
 
-	filter := spamFilter
-	sayHello("Anjing", filter)
-}
+// 	filter := spamFilter
+// 	sayHello("Anjing", filter)
+// }
