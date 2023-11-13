@@ -1,19 +1,19 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func endApp() {
-	fmt.Println("End App")
-}
+// func endApp() {
+// 	fmt.Println("End App")
+// }
 
-func runApp(error bool) {
-	defer endApp()
+// func runApp(error bool) {
+// 	defer endApp()
 
-	if error == true {
-		panic("Ups Error!")
-	}
-}
+// 	if error == true {
+// 		panic("Ups Error!")
+// 	}
+// }
 
-func main() {
-	runApp(true)
-}
+// func main() {
+// 	runApp(true)
+// }
