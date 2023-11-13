@@ -15,5 +15,16 @@ func main() {
 	pares.Age = 23
 	pares.Maried = false
 
-	fmt.Println(pares.Name)
+	pahreza := Customer{
+		Name:   "Pahreza Iqbal Prastowo",
+		Adress: "Curup",
+		Age:    23,
+		Maried: true,
+	}
+
+	risti := Customer{"Risti Yolanda", "Bengkulu", 22, false}
+
+	fmt.Println(risti)
+	fmt.Println(pares)
+	fmt.Println(pahreza)
 }
