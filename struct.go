@@ -1,34 +1,34 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-type Customer struct {
-	Name, Adress string
-	Age          int
-	Maried       bool
-}
+// type Customer struct {
+// 	Name, Adress string
+// 	Age          int
+// 	Maried       bool
+// }
 
-func (customer Customer) sayHello() {
-	fmt.Println("Hello", customer.Name)
-}
+// func (customer Customer) sayHello() {
+// 	fmt.Println("Hello", customer.Name)
+// }
 
-func main() {
-	var pares Customer
-	pares.Name = "Pares Iqbal"
-	pares.Adress = "Bengkulu"
-	pares.Age = 23
-	pares.Maried = false
+// func main() {
+// 	var pares Customer
+// 	pares.Name = "Pares Iqbal"
+// 	pares.Adress = "Bengkulu"
+// 	pares.Age = 23
+// 	pares.Maried = false
 
-	pahreza := Customer{
-		Name:   "Pahreza Iqbal Prastowo",
-		Adress: "Curup",
-		Age:    23,
-		Maried: true,
-	}
+// 	pahreza := Customer{
+// 		Name:   "Pahreza Iqbal Prastowo",
+// 		Adress: "Curup",
+// 		Age:    23,
+// 		Maried: true,
+// 	}
 
-	risti := Customer{"Risti Yolanda", "Bengkulu", 22, false}
+// 	risti := Customer{"Risti Yolanda", "Bengkulu", 22, false}
 
-	fmt.Println(risti)
-	fmt.Println(pares)
-	pahreza.sayHello()
-}
+// 	fmt.Println(risti)
+// 	fmt.Println(pares)
+// 	pahreza.sayHello()
+// }
