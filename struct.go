@@ -8,6 +8,10 @@ type Customer struct {
 	Maried       bool
 }
 
+func (customer Customer) sayHello() {
+	fmt.Println("Hello", customer.Name)
+}
+
 func main() {
 	var pares Customer
 	pares.Name = "Pares Iqbal"
@@ -26,5 +30,5 @@ func main() {
 
 	fmt.Println(risti)
 	fmt.Println(pares)
-	fmt.Println(pahreza)
+	pahreza.sayHello()
 }
