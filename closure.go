@@ -1,17 +1,17 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	counter := 0
-	increment := func() {
-		fmt.Println(counter)
-		counter++
-	}
+// func main() {
+// 	counter := 0
+// 	increment := func() {
+// 		fmt.Println(counter)
+// 		counter++
+// 	}
 
-	increment()
-	increment()
-	increment()
+// 	increment()
+// 	increment()
+// 	increment()
 
-	fmt.Println(counter)
-}
+// 	fmt.Println(counter)
+// }
