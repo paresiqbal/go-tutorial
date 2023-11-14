@@ -1,24 +1,24 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-type HasName interface {
-	getName() string
-}
+// type HasName interface {
+// 	getName() string
+// }
 
-func SayHello(value HasName) {
-	fmt.Println("Hello", value.getName())
-}
+// func SayHello(value HasName) {
+// 	fmt.Println("Hello", value.getName())
+// }
 
-type Person struct {
-	Name string
-}
+// type Person struct {
+// 	Name string
+// }
 
-func (person Person) getName() string {
-	return person.Name
-}
+// func (person Person) getName() string {
+// 	return person.Name
+// }
 
-func main() {
-	person := Person{"Pares"}
-	SayHello(person)
-}
+// func main() {
+// 	person := Person{"Pares"}
+// 	SayHello(person)
+// }
