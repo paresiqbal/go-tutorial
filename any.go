@@ -1,12 +1,12 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func ups() any {
-	return 1
-}
+// func ups() any {
+// 	return 1
+// }
 
-func main() {
-	var kosong any = ups()
-	fmt.Println(kosong)
-}
+// func main() {
+// 	var kosong any = ups()
+// 	fmt.Println(kosong)
+// }
