@@ -1,26 +1,26 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-type Adress struct {
-	City, Province, Country string
-}
+// type Adress struct {
+// 	City, Province, Country string
+// }
 
-func ChangeCountry(address Adress) {
-	address.Country = "Indonesia"
-}
+// func ChangeCountry(address Adress) {
+// 	address.Country = "Indonesia"
+// }
 
-func ChangeCity(address *Adress) {
-	address.City = "Curup"
-}
+// func ChangeCity(address *Adress) {
+// 	address.City = "Curup"
+// }
 
-func main() {
-	address := Adress{}
-	ChangeCountry(address)
+// func main() {
+// 	address := Adress{}
+// 	ChangeCountry(address)
 
-	var address1 Adress = Adress{}
-	ChangeCity(&address1)
+// 	var address1 Adress = Adress{}
+// 	ChangeCity(&address1)
 
-	fmt.Println(address)
-	fmt.Println(address1)
-}
+// 	fmt.Println(address)
+// 	fmt.Println(address1)
+// }
